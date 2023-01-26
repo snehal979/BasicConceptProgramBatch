@@ -10,6 +10,7 @@ namespace BasicConceptProgram
     {
         public void Check_NumIsEvenOrOdd()
         {
+            //Uc 8 Check Number is Even or Odd
             Console.WriteLine("Enter the number is even or odd");
             int number = Convert.ToInt32(Console.ReadLine());
             if(number > 0)
