@@ -7,7 +7,7 @@
             try
             {
                 Console.WriteLine("Basic Concept Program");
-                Console.WriteLine("Hint 1.FlipCoin \n 2.Leap Year \n 3.Power the Number \n 4.PrimeFactor");
+                Console.WriteLine("Hint 1.FlipCoin \n 2.Leap Year \n 3.Power the Number \n 4.PrimeFactor \n 5.Even or Odd");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -26,6 +26,10 @@
                     case 4:
                         Factor factor = new Factor();
                         factor.Primefactornumber();
+                        break;
+                    case 5:
+                        EvenAndOddNumber evenAndOddNumber = new EvenAndOddNumber();
+                        evenAndOddNumber.Check_NumIsEvenOrOdd();
                         break;
                 }
             }
