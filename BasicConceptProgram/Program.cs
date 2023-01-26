@@ -8,7 +8,7 @@
             {
                 Console.WriteLine("Basic Concept Program");
                 Console.WriteLine("Hint 1.FlipCoin \n 2.Leap Year \n 3.Power the Number \n 4.PrimeFactor \n 5.Even or Odd " +
-                    "\n 6.Swap two number \n 7.Alphabet Vowel or Consonat \n 8.Largest Number between 3 number");
+                    "\n 6.Swap two number \n 7.Alphabet Vowel or Consonat \n 8.Largest Number between 3 number \n 9.Divison number");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -43,6 +43,10 @@
                     case 8:
                         LargestNumber largestNumber = new LargestNumber();
                         largestNumber.LargestNumber_Three();
+                        break;
+                    case 9:
+                        DivisonNumber divisonNumber = new DivisonNumber();
+                        divisonNumber.QuoteientRemainder();
                         break;
                 }
             }
