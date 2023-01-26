@@ -7,7 +7,7 @@
             try
             {
                 Console.WriteLine("Basic Concept Program");
-                Console.WriteLine("Hint 1.FlipCoin 2.Leap Year 3.Power the Number");
+                Console.WriteLine("Hint 1.FlipCoin \n 2.Leap Year \n 3.Power the Number \n 4.PrimeFactor");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -22,6 +22,10 @@
                     case 3:
                         PowerOfNumber powerOfNumber = new PowerOfNumber();
                         powerOfNumber.CalculatePowerOfNumber();
+                        break;
+                    case 4:
+                        Factor factor = new Factor();
+                        factor.Primefactornumber();
                         break;
                 }
             }
