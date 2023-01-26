@@ -8,7 +8,7 @@
             {
                 Console.WriteLine("Basic Concept Program");
                 Console.WriteLine("Hint 1.FlipCoin \n 2.Leap Year \n 3.Power the Number \n 4.PrimeFactor \n 5.Even or Odd " +
-                    "\n 6.Swap two number");
+                    "\n 6.Swap two number \n 7.Alphabet Vowel or Consonat");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -35,6 +35,10 @@
                     case 6:
                         SwapTwoNumber swapTwoNumber = new SwapTwoNumber();
                         swapTwoNumber.SwappingTwoNumber();
+                        break;
+                    case 7:
+                        Alphabet alphabet = new Alphabet();
+                        alphabet.CheckVowelOrConsonat();
                         break;
                 }
             }
