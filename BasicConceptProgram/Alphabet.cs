@@ -10,6 +10,7 @@ namespace BasicConceptProgram
     {
         public void CheckVowelOrConsonat()
         {
+            //Uc9 Alphabet check is vowel or Consonat(a,e,i,o,u)
             Console.WriteLine("Enter the alphabet");
             char alphabet = Convert.ToChar(Console.ReadLine());
             if(alphabet == 'A'||alphabet == 'E' || alphabet =='I'|| alphabet == 'O'||alphabet=='U'||alphabet == 'a'||alphabet == 'e' || alphabet =='i'|| alphabet == 'o'||alphabet=='u')
